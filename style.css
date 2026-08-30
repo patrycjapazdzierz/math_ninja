@@ -1,0 +1,40 @@
+body {
+    background-color: #4F6048;
+    font-family: "Trebuchet MS", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+button {
+    background-color: #6B7D5A;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #7F936B;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#answer {
+    width: 120px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+}
