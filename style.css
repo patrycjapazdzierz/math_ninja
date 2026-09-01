@@ -7,15 +7,13 @@ body {
     min-height: 100vh;
     margin: 0;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 .game {
-    background-color: #D8DDCF;
-    width: 80%;
+    width: 100%;
     max-width: 500px;
-    min-height: 70vh;
-    padding: 40px;
-    border-radius: 25px;
+    padding: 30px;
     text-align: center;
     box-sizing: border-box;
 }
@@ -92,15 +90,12 @@ button:hover {
 @media (max-width: 600px) {
 
     body {
-        padding: 10px;
-        box-sizing: border-box;
+        padding: 15px;
     }
 
     .game {
-        width: 95%;
-        min-height: 90vh;
-        padding: 30px 20px;
-        border-radius: 25px;
+        width: 100%;
+        padding: 20px 10px;
     }
 
     h1 {
